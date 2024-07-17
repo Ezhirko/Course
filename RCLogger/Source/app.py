@@ -16,7 +16,7 @@ st.markdown(
         font-family: 'Helvetica', Times, serif;
         font-size: 1.15em;
         font-weight: bold;
-        text-align: center;
+        text-align: left;
     }
     
     .subheading {
