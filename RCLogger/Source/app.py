@@ -25,5 +25,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+st.image('Resources\RCLogo.png', caption='Radiant Champs Image', use_column_width=True)
 st.markdown("<h1 class='title'>RADIANT CHAMPS</h1>", unsafe_allow_html=True)
 st.markdown("<h1 class='subheading'>Badminton Academy</h1>", unsafe_allow_html=True)
