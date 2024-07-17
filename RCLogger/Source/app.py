@@ -14,7 +14,7 @@ st.markdown(
     
     .title {
         font-family: 'Helvetica', Times, serif;
-        font-size: 2em;
+        font-size: 1.15em;
         font-weight: bold;
         text-align: center;
     }
@@ -28,11 +28,9 @@ st.markdown(
     unsafe_allow_html=True
 )
 image = Image.open("RCLogger/Source/RCLogo.png")
-col1,col2,col3 = st.columns([1,1,1])
+col1,col2 = st.columns([1,2])
 with col1:
-    st.markdown("<h1 class='title'></h1>", unsafe_allow_html=True)
-with col2:
     st.image(image, output_format='auto',width=100)
-    
-st.markdown("<h1 class='title'>RADIANT CHAMPS</h1>", unsafe_allow_html=True)
+with col2:
+    st.markdown("<h1 class='title'>RADIANT CHAMPS</h1>", unsafe_allow_html=True)
 st.markdown("<h1 class='subheading'>Badminton Academy</h1>", unsafe_allow_html=True)
