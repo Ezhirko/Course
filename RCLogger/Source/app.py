@@ -12,7 +12,7 @@ st.markdown(
     
     .title {
         font-family: 'Helvetica', Times, serif;
-        font-size: 1.25em;
+        font-size: 2em;
         font-weight: bold;
         text-align: center;
     }
