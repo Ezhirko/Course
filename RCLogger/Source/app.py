@@ -28,8 +28,9 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
-image = Image.open("RCLogger/Source/RCLogo.png")
+col1,col2,col3 = st.columns([1,3,1])
+with col2:
+    image = Image.open("RCLogger/Source/RCLogo.png")
 st.image(image, width=75)
 st.markdown("<h1 class='title'>RADIANT CHAMPS</h1>", unsafe_allow_html=True)
 st.markdown("<h1 class='subheading'>Badminton Academy</h1>", unsafe_allow_html=True)
