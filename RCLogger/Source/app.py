@@ -30,7 +30,7 @@ st.markdown(
 image = Image.open("RCLogger/Source/RCLogo.png")
 col1,col2,col3 = st.columns([1,1,1])
 with col2:
-    st.image(image, use_column_width=True, output_format='auto',width=100)
+    st.image(image, output_format='auto',width=100)
     
 st.markdown("<h1 class='title'>RADIANT CHAMPS</h1>", unsafe_allow_html=True)
 st.markdown("<h1 class='subheading'>Badminton Academy</h1>", unsafe_allow_html=True)
