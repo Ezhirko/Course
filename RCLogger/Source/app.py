@@ -1,8 +1,29 @@
 import streamlit as st
 import os
 
-with open("styles.css") as f:
-    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+st.markdown(
+    """
+    <style>
+    body {
+    font-family: 'Helvetica', Times, serif;
+    text-align: center;
+    }
+    
+    .title {
+        font-family: 'Helvetica', Times, serif;
+        font-size: 3em;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .subheading {
+        font-family: 'Helvetica', sans-serif;
+        font-size: 1.5em;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 col1, col2 = st.columns([1, 3])
 
