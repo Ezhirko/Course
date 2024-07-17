@@ -10,7 +10,6 @@ st.markdown(
     text-align: center;
     display: flex;
     align-items: center;
-    height: 100vh;
     }
     
     .title {
@@ -29,9 +28,9 @@ st.markdown(
     unsafe_allow_html=True
 )
 image = Image.open("RCLogger/Source/RCLogo.png")
-col1,col2,col3 = st.columns([1,3,1])
+col1,col2,col3 = st.columns([1,1,1])
 with col2:
-    st.image(image, width=75)
+    st.image(image, use_column_width=True, output_format='auto')
     
 st.markdown("<h1 class='title'>RADIANT CHAMPS</h1>", unsafe_allow_html=True)
 st.markdown("<h1 class='subheading'>Badminton Academy</h1>", unsafe_allow_html=True)
