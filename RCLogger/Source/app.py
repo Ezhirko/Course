@@ -28,7 +28,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 image = Image.open("RCLogger/Source/RCLogo.png")
-col1,col2 = st.columns([1,2])
+col1,col2 = st.columns([1,1])
 with col1:
     st.image(image, output_format='auto',width=100)
 with col2:
